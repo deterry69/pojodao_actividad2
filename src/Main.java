@@ -5,7 +5,6 @@ import pojo.Actor;
 
 public class Main {
     public static void main(String[] args) {
-        // Inicializamos los DOS Daos por separado
         PeliculaDAO peliculaDao = new PeliculaDAO();
         ActorDAO actorDao = new ActorDAO();
 
